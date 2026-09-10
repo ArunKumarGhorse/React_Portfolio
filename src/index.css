@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0B0B0B;
+  --surface: #161616;
+  --border: #2A2A2A;
+  --ink: #F2F2F0;
+  --soft: #9C9C97;
+  --faint: #6B6B66;
+  --accent: #FF383C;
+}
+
+.light {
+  --bg: #F5F5F1;
+  --surface: #EAE9E2;
+  --border: #D6D4C9;
+  --ink: #14150F;
+  --soft: #54564A;
+  --faint: #8B8C7F;
+  --accent: #C1392B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.leetcode-shine {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.leetcode-shine::after {
+  content: '';
+  position: absolute;
+  inset: -20% auto -20% -45%;
+  width: 28%;
+  background: linear-gradient(105deg, transparent, rgb(255 255 255 / 0.8), transparent);
+  transform: skewX(-18deg);
+  animation: leetcode-shine 1.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes leetcode-shine {
+  0%, 35% { left: -45%; }
+  70%, 100% { left: 125%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
