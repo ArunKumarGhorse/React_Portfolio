@@ -9,7 +9,7 @@ export const profile = {
     'I build with problem solving, web development, and data analysis — clean, working software over polish for its own sake.',
   bio: [
     "I'm a final-track B.Tech student in Computer Science (AI & Data Science), and most of what I know I've learned by shipping — small tools, contest problems, and a couple of full-stack builds that forced me to actually understand the systems underneath the frameworks.",
-    "Day to day that means DSA practice, reading other people's code, and slowly getting comfortable with the MERN stack and basic system design. I'd rather have five projects I can explain in depth than fifteen I can't.",
+    "Day to day that means DSA practice, reading other people's code, and slowly getting comfortable with the MERN stack and basic system design.",
   ],
   location: '303, B/A, Airport Rd, Indra Vihar Colony, Lalghati, Bhopal, MP 462030',
   phone: '+91 9399767780',
@@ -40,6 +40,22 @@ export const timeline = [
     title: 'Class 10',
     place: 'MP Board',
     detail: '79%',
+  },
+]
+
+export const experiences = [
+  {
+    role: 'Frontend Developer Intern',
+    company: 'Zarthi',
+    period: 'September 2026 – Present',
+    isCurrent: true,
+    location: 'Bhopal, India',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
+    responsibilities: [
+      'Developed responsive and reusable UI components for web applications.',
+      'Collaborated with the development team to improve frontend functionality and user experience.',
+      'Followed Git/GitHub-based development workflows.',
+    ],
   },
 ]
 
@@ -83,14 +99,14 @@ export const projects = [
     repoUrl: 'https://github.com/ArunKumarGhorse',
   },
   {
-  title: 'InternSarthi',
-  category: 'Minor',
-  stack: ['React', 'Node.js', 'Firebase', 'Gemini AI', 'Sentiment Analysis'],
-  description:
-    'An AI-powered interview platform that conducts mock interviews, evaluates candidate responses using Gemini AI and sentiment analysis, and provides personalized feedback to improve interview performance.',
-  liveUrl: '#',
-  repoUrl: 'https://github.com/ArunKumarGhorse',
-},
+    title: 'InternSarthi',
+    category: 'Minor',
+    stack: ['React', 'Node.js', 'Firebase', 'Gemini AI', 'Sentiment Analysis'],
+    description:
+      'An AI-powered interview platform that conducts mock interviews, evaluates candidate responses using Gemini AI and sentiment analysis, and provides personalized feedback to improve interview performance.',
+    liveUrl: '#',
+    repoUrl: 'https://github.com/ArunKumarGhorse',
+  },
   {
     title: 'AI Website Builder',
     category: 'Other',
@@ -110,14 +126,14 @@ export const projects = [
     repoUrl: 'https://github.com/ArunKumarGhorse',
   },
   {
-title: 'AI Task Manager',
-category: 'Minor',
-stack: ['React', 'Node.js', 'MongoDB', 'Gemini AI'],
-description:
-'An AI-powered task management application where users can create tasks using natural-language prompts through Gemini AI, with tasks stored and retrieved from MongoDB for persistent task management.',
-liveUrl: '#',
-repoUrl: 'https://github.com/ArunKumarGhorse',
-},
+    title: 'AI Task Manager',
+    category: 'Minor',
+    stack: ['React', 'Node.js', 'MongoDB', 'Gemini AI'],
+    description:
+      'An AI-powered task management application where users can create tasks using natural-language prompts through Gemini AI, with tasks stored and retrieved from MongoDB for persistent task management.',
+    liveUrl: '#',
+    repoUrl: 'https://github.com/ArunKumarGhorse',
+  },
 
   {
     title: 'Calculator',

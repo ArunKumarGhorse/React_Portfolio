@@ -4,7 +4,10 @@ import { profile, timeline } from '../data'
 export default function Timeline() {
   return (
     <section id="timeline" className="py-16 border-t border-border scroll-mt-20">
-      <h3 className="font-head text-xl font-semibold">Timeline</h3>
+      <div className="flex items-center justify-between flex-wrap gap-4">
+        <h3 className="font-head text-xl font-semibold">Education</h3>
+        <span className="font-mono text-xs text-faint">Timeline</span>
+      </div>
 
       <div className="mt-4 max-w-prose space-y-4 text-soft leading-relaxed">
         {profile.bio.map((p, i) => (

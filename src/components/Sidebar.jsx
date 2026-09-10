@@ -4,9 +4,10 @@ import { profile } from '../data'
 
 const sections = [
   { id: 'profile', label: 'Profile' },
-  { id: 'timeline', label: 'Timeline' },
+  { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
+  { id: 'timeline', label: 'Education' },
   { id: 'achievements', label: 'Achievements' },
   { id: 'contact', label: 'Contact' },
 ]

@@ -5,12 +5,13 @@ import ThemeToggle from './components/ThemeToggle'
 import Profile from './components/Profile'
 import Timeline from './components/Timeline'
 import Skills from './components/Skills'
+import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-const sectionIds = ['profile', 'timeline', 'skills', 'projects', 'achievements', 'contact']
+const sectionIds = ['profile', 'experience', 'skills', 'projects', 'timeline', 'achievements', 'contact']
 
 export default function App() {
   const [active, setActive] = useState('profile')
@@ -42,9 +43,10 @@ export default function App() {
       <Sidebar active={active} />
       <main className="px-5 md:px-10 lg:px-16 max-w-[880px]">
         <Profile />
-        <Timeline />
+        <Experience />
         <Skills />
         <Projects />
+        <Timeline />
         <Achievements />
         <Contact />
         <Footer />
