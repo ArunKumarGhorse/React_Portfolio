@@ -92,11 +92,20 @@ export const projects = [
   {
     title: 'AI Resume Analyzer',
     category: 'Major',
-    stack: ['React', 'Node.js', 'MongoDB', 'Gemini AI'],
+    stack: ['React', 'Node.js', 'MongoDB', 'Gemini AI', 'ADZUNA API'],
     description:
       'A full-stack resume analysis platform: Google OAuth login, resume upload with section-wise AI feedback, a results dashboard with a score gauge and strengths/improvements breakdown, an AI-generated improved resume, and job recommendations from parsed resume data.',
-    liveUrl: '#',
-    repoUrl: 'https://github.com/ArunKumarGhorse',
+    liveUrl: 'https://ai-resume-analyzer-two-sage.vercel.app/',
+    repoUrl: 'https://github.com/ArunKumarGhorse/AI_RESUME_ANALYZER',
+  },
+  {
+    title: 'CodeForge',
+    category: 'Minor',
+    stack: ['React', 'Vite', 'Monaco Editor', 'Django REST Framework', 'Python', 'Scikit-learn', 'Ruff', 'Bandit'],
+    description:
+      'An AI-powered code analysis platform that analyzes Python code quality, detects potential bugs and security vulnerabilities, and provides intelligent insights using machine learning, static analysis, and automated code evaluation.',
+    liveUrl: '',
+    repoUrl: '',
   },
   {
     title: 'InternSarthi',
@@ -104,8 +113,8 @@ export const projects = [
     stack: ['React', 'Node.js', 'Firebase', 'Gemini AI', 'Sentiment Analysis'],
     description:
       'An AI-powered interview platform that conducts mock interviews, evaluates candidate responses using Gemini AI and sentiment analysis, and provides personalized feedback to improve interview performance.',
-    liveUrl: '#',
-    repoUrl: 'https://github.com/ArunKumarGhorse',
+    liveUrl: 'https://ai-mock-interview-pied-nu.vercel.app/',
+    repoUrl: 'https://github.com/ArunKumarGhorse/InternSarthi',
   },
   {
     title: 'AI Website Builder',
@@ -123,11 +132,11 @@ export const projects = [
     description:
       'A spreadsheet interface built to understand table logic properly — sorting, searching, and cell-level interaction, with no framework to lean on.',
     liveUrl: '#',
-    repoUrl: 'https://github.com/ArunKumarGhorse',
+    repoUrl: 'https://github.com/ArunKumarGhorse/Microsoft-Excel-Clone-Project',
   },
   {
     title: 'AI Task Manager',
-    category: 'Minor',
+    category: 'Other',
     stack: ['React', 'Node.js', 'MongoDB', 'Gemini AI'],
     description:
       'An AI-powered task management application where users can create tasks using natural-language prompts through Gemini AI, with tasks stored and retrieved from MongoDB for persistent task management.',
@@ -146,7 +155,7 @@ export const projects = [
   {
     title: 'Counter App',
     category: 'Other',
-    stack: ['HTML', 'CSS', 'JavaScript'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'React'],
     description: 'A minimal increment/decrement counter — the standard first stop for state and event-handling practice.',
     liveUrl: '#',
     repoUrl: 'https://github.com/ArunKumarGhorse',
@@ -157,7 +166,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     description: 'A two-player game with win detection and reset — built to practice game-state logic.',
     liveUrl: '#',
-    repoUrl: 'https://github.com/ArunKumarGhorse',
+    repoUrl: 'https://github.com/ArunKumarGhorse/Tic-Tac-Toe-',
   },
   {
     title: 'Art Gallery',
